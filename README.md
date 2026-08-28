@@ -18,6 +18,9 @@ An I2C LCD uses only four wires:
 | SDA         | A4               |
 | SCL         | A5               |
 
+<img width="400" height="455" alt="2c6a4403cf046091196d5e4eb3cb9aa0" src="https://github.com/user-attachments/assets/acaa4525-586f-4d11-b833-604d76e55aa1" />
+
+
 ### Benefits of I2C LCDs
 
 * Uses only 2 communication pins
