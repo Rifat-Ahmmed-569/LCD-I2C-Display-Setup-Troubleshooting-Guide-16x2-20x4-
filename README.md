@@ -773,6 +773,5 @@ If all checks pass, the LCD is correctly configured and ready for Arduino projec
 
 For a practical example of using an I2C LCD display, you can also check out my previous project:
 
-https://github.com/Rifat-Ahmmed-569/Arduino-Based-Over-Voltage-Under-Voltage-Protection-System20x4-/tree/main
-
+https://github.com/Rifat-Ahmmed-569/Arduino-Based-Over-Voltage-Under-Voltage-Protection-System
 ---
