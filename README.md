@@ -18,8 +18,21 @@ An I2C LCD uses only four wires:
 | SDA         | A4               |
 | SCL         | A5               |
 
+
 <img width="400" height="455" alt="2c6a4403cf046091196d5e4eb3cb9aa0" src="https://github.com/user-attachments/assets/acaa4525-586f-4d11-b833-604d76e55aa1" />
 
+
+## SDA and SCL Pins for Different Boards
+
+| Board | SDA | SCL |
+|---------|---------|---------|
+| Arduino Uno | A4 | A5 |
+| Arduino Nano | A4 | A5 |
+| Arduino Mega | 20 | 21 |
+| ESP8266 NodeMCU | D2 | D1 |
+| ESP32 DevKit | GPIO21 | GPIO22 |
+
+⚠️ Using the wrong SDA/SCL pins is one of the most common causes of I2C communication failure.
 
 ### Benefits of I2C LCDs
 
