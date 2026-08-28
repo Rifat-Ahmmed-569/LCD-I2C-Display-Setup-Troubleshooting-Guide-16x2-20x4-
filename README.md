@@ -3,6 +3,9 @@
 This guide helps beginners connect an I2C LCD display to an Arduino, find the correct I2C address, diagnose common issues, and print **"Hello World"** on both **16x2** and **20x4** displays.
 
 ---
+<img width="1920" height="1080" alt="I2C LCD" src="https://github.com/user-attachments/assets/b6f9f7dd-a6b4-480a-a257-5001d5f00382" />
+
+---
 
 ## Overview
 
