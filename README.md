@@ -47,6 +47,162 @@ Install the following library from the Arduino Library Manager:
 LiquidCrystal_I2C
 ```
 
+## Installing the LiquidCrystal_I2C Library
+
+Before uploading any LCD code, you need to install the **LiquidCrystal_I2C** library.
+
+### Method 1: Install from Arduino IDE (Recommended)
+
+1. Open **Arduino IDE**
+2. Click **Sketch → Include Library → Manage Libraries**
+3. Search for:
+
+```text
+LiquidCrystal_I2C
+```
+
+4. Click **Install**
+
+Once installed, you are ready to use the LCD examples in this guide.
+
+---
+
+### Method 2: Install Manually from GitHub
+
+Sometimes the library may not appear in the Arduino Library Manager. In that case, install it manually.
+
+#### Step 1: Download the Library
+
+Visit the following GitHub repository:
+
+https://github.com/johnrickman/LiquidCrystal_I2C
+
+Click:
+
+```text
+Code → Download ZIP
+```
+
+This will download the library as a ZIP file.
+
+#### Step 2: Add the ZIP Library to Arduino IDE
+
+1. Open **Arduino IDE**
+2. Click:
+
+```text
+Sketch → Include Library → Add .ZIP Library...
+```
+
+3. Select the downloaded ZIP file
+4. Click **Open**
+
+Arduino IDE will automatically install the library.
+
+---
+
+### Verify Installation
+
+Create a new sketch and add:
+
+```cpp
+#include <LiquidCrystal_I2C.h>
+```
+
+If the code compiles without errors, the library has been installed successfully.
+
+---
+
+## Installing the Library in VS Code (PlatformIO)
+
+If you are using **VS Code with PlatformIO**, the process is slightly different.
+
+### Method 1: PlatformIO Library Manager
+
+1. Open VS Code
+2. Click the **PlatformIO** icon on the left sidebar
+3. Open **Libraries**
+4. Search for:
+
+```text
+LiquidCrystal_I2C
+```
+
+5. Select the library
+6. Click **Add to Project**
+7. Choose your project
+
+PlatformIO will automatically download and install the library.
+
+---
+
+### Method 2: platformio.ini
+
+You can also add the library manually.
+
+Open your project's:
+
+```text
+platformio.ini
+```
+
+Add:
+
+```ini
+lib_deps =
+    marcoschwartz/LiquidCrystal_I2C
+```
+
+Save the file and PlatformIO will install the library automatically during the next build.
+
+---
+
+## Common Installation Errors
+
+### Error
+
+```text
+LiquidCrystal_I2C.h: No such file or directory
+```
+
+### Cause
+
+The library is not installed.
+
+### Solution
+
+Install the library using one of the methods above.
+
+---
+
+### Error
+
+```text
+Multiple libraries found for LiquidCrystal_I2C.h
+```
+
+### Cause
+
+More than one LCD library is installed.
+
+### Solution
+
+Remove duplicate LCD libraries and keep only one version installed.
+
+---
+
+### Final Check
+
+Before continuing, make sure:
+
+* [ ] Arduino IDE or PlatformIO is installed
+* [ ] LiquidCrystal_I2C library is installed
+* [ ] Code compiles successfully
+* [ ] No library errors appear
+
+Once all checks pass, proceed to the I2C Scanner section.
+
+
 ---
 
 ## Common I2C Addresses
